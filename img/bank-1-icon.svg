@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="80" cy="80" r="80"></circle>
+        <circle id="path-3" cx="80" cy="80" r="80"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-42">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#5BBA47" xlink:href="#path-1"></use>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask" fill="#5BBA47" xlink:href="#path-3"></use>
+            <polygon id="Path-2" fill="#357329" mask="url(#mask-4)" points="97 160.579374 156.591346 175.657843 173.048081 141.049577 115.243837 79 57.3184816 95.8159121 60.0147183 161.645555"></polygon>
+            <rect id="Rectangle-40" fill="#3F902E" mask="url(#mask-4)" x="45" y="125" width="20" height="33"></rect>
+            <ellipse id="Oval-4" fill="#FFFFFF" mask="url(#mask-4)" cx="54.4322576" cy="50.8128384" rx="11.7397906" ry="11.8128384"></ellipse>
+            <path d="M61.9997378,67.0422527 L66.6503069,67.0422527 C71.6159132,67.0422527 75.6413323,71.0637533 75.6413323,76.0350314 L75.6413323,99.9371253 C70.9460104,102.893905 67.616487,104.663752 67.616487,104.663752 L69.8174518,128.822043 L38.5485265,128.822043 L40.5025273,104.597909 L33,104.663752 L33,76.0415824 C33,71.0713899 37.0307956,67.0422527 41.9910254,67.0422527 L47.0002622,67.0422527 C47.0343063,69.7842227 50.3790113,72 54.5,72 C58.6209887,72 61.9656937,69.7842227 61.9997378,67.0422527 Z" id="Combined-Shape" fill="#4BA438" mask="url(#mask-4)"></path>
+            <ellipse id="Oval-4" fill="#FFFFFF" mask="url(#mask-4)" cx="91.0828034" cy="57.1530493" rx="14.8562768" ry="15.0013443"></ellipse>
+            <path d="M106.699937,163.143157 C107.583468,162.607387 108.32694,162.252581 108.805902,162.252581 L108.805902,124.776245 L118.961051,124.301012 L118.961051,86.0082957 C118.961051,81.0328577 114.930948,77 109.959564,77 L74.0014868,77 C69.033781,77 65,81.0296059 65,86.0003767 L65,124.776245 L74.4941746,124.69263 L74.4941746,166.129842 L106.699937,163.143157 Z" id="Combined-Shape" fill="#469038" mask="url(#mask-4)"></path>
+            <polygon id="Rectangle-17" fill="#FFFFFF" mask="url(#mask-4)" points="81 77 102 77 98.9664626 85.8977774 91.5 79.8802562 84.108018 86.0882445"></polygon>
+            <path d="M47.0333502,67.2881815 C47.0333502,67.2881815 48.2499244,69.5914501 49.4933726,70.7232657 C50.7368208,71.8550813 51.8593926,72.4074429 54.2239742,72.4903369 C56.5885557,72.5732309 57.6511243,72.2555306 59.2635983,71.0657758 C60.8760724,69.876021 61.7615302,67.2617051 61.7615302,67.2617051" id="Path-83" stroke="#FFFFFF" stroke-width="3" mask="url(#mask-4)"></path>
+        </g>
+    </g>
+</svg>
