@@ -23,6 +23,9 @@
 			'-webkit-transform': 'scale('+r+')',
 			'transform': 'scale('+r+')'
 		});
+		$('.mobile .process__row ul').css({
+			'margin-left': 'calc((100% - (100% / '+r+')) / 2)'
+		});
 	}
 	function scaleDesktop() {
 		if ( $(window).height() < 900 ) {
