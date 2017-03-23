@@ -3,7 +3,7 @@
 <head>
 	<title>BSTR</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=1260, user-scalable=yes">
+	<meta name="viewport" content="width=320, user-scalable=no">
 	<!--<link href="./favicon.ico" rel="shortcut icon">-->
 	<link href="./css/style.css" rel="stylesheet">
 	<!--[if IE 8]>
@@ -14,7 +14,9 @@
 	<header class="header">
 		<div class="header__row">
 			<span class="header--logo"></span>
+			<span class="menu-open"></span>
 			<nav class="nav">
+				<span class="close"></span>
 				<ul id="menu">
 					<li data-menuanchor="about"><a href="#about">Что такое Бустр</a></li>
 					<li data-menuanchor="process"><a href="#process">Как это работает</a></li>
@@ -29,8 +31,8 @@
 	<div class="wrapper">
 		<div class="section about">
 			<div class="about__row">
-				<h2 class="about--title">«Бустр» — транспондер нового поколения</h2>
-				<img src="./img/mark.svg" width="501" height="71" class="about--mark" alt="">
+				<h2 class="about--title">Бустр — транспондер нового поколения</h2>
+				<img src="./img/metka.png" width="500" height="71" class="about--mark" alt="">
 				<p class="about--text">оплачивайте услуги,<br> не выходя из автомобиля:</p>
 				<ul class="about--list">
 					<li>
@@ -65,12 +67,13 @@
 			<span class="process-gate-stick"></span>
 			<div class="process__row">
 				<ul>
-					<li><i><span>1</span>шаг</i>Вы подъезжаете<br> к антенне с шлагбаумом</li>
-					<li><i><span>2</span>шаг</i>Система считывает<br> данные автомобиля</li>
-					<li><i><span>3</span>шаг</i>Вы проезжаете<br> через шлагбаум</li>
+					<li><i><span>1</span>шаг</i>Вы подъезжаете<br> к выезду с парковки.</li>
+					<li><i><span>2</span>шаг</i>Антенна считывает Ваши данные<br> с метки. Система рассчитывает стоимость парковки.</li>
+					<li><i><span>3</span>шаг</i>Стоимость услуги списывается<br> с привязанной карты. Услуга оплачена. Шлагбаум открывается.</li>
 				</ul>
 				<div>
-					<p>С «Бустр» Вам не придется выходить<br> из машины и терять время для оплаты<br> проезда. Оплата спишется с Вашей<br> карты после проезда через шлагбаум.</p>
+					<p>С Бустр Вам не придется терять время<br> и выходить из машины для оплаты проезда. Подробная информация об оказанной услуге доступна в личном кабинете.</p>
+					<button>Заказать Бустр</button>
 				</div>
 			</div>
 			<div class="process__order">
@@ -86,12 +89,12 @@
 					<li>
 						<img src="./img/benefit-1-icon.png" width="160" height="160" alt="">
 						<h4>Быстрая<br> оплата услуг</h4>
-						<p>Следите за всеми операциями<br> в мобильном приложении</p>
+						<p>Следите за всеми операциями<br> в личном кабинете<br> и в мобильном приложении</p>
 					</li>
 					<li>
 						<img src="./img/benefit-2-icon.png" width="160" height="160" alt="">
 						<h4>Привязка к Вашему счету в банке</h4>
-						<p>Автоматическое списание прямо<br> с Вашего банковского счета. <br>Никаких пополнений<br> и контроля баланса.</p>
+						<p>Автоматическое списание прямо<br> с Вашего банковского счета</p>
 					</li>
 					<li>
 						<img src="./img/benefit-3-icon.png" width="160" height="160" alt="">
@@ -108,31 +111,25 @@
 				<ul class="connect__list">
 					<li>
 						<i><span>1</span>шаг</i>
-						<p>Зарегистрироваться на сайте<br> <a href="#">MYBOOSTER.RU</a></p>
+						<p>Зарегистрироваться на сайте<br> <a href="#">MYBOOSTR.RU</a></p>
 					</li>
 					<li>
 						<i><span>2</span>шаг</i>
-						<p>Привязать банковскую карту</p>
+						<p>Привязать банковскую карту.</p>
 					</li>
 					<li>
 						<i><span>3</span>шаг</i>
-						<p>Заказать Бустр</p>
+						<p>Заказать Бустр.</p>
 					</li>
 					<li>
 						<i><span>4</span>шаг</i>
-						<p>Активировать Бустр в личном кабинете</p>
+						<p>Активировать Бустр в личном кабинете.</p>
 					</li>
 				</ul>
 				<div class="connect__rc">
 					<div class="connect__done">
 						<p>Бустр уже подключили:</p>
-						<ul>
-							<li>2</li>
-							<li>3</li>
-							<li>1</li>
-							<li>0</li>
-						</ul>
-						<h6>человек</h6>
+						<div class="counter"><span>2310</span></div>
 					</div>
 					<button class="connect__rc--button">Я готов подключить!</button>
 				</div>
@@ -163,7 +160,7 @@
 						</li>
 						<li>
 							<img src="./img/partner-2-icon.svg" width="160" height="160" alt="">
-							<p>Повышение выручки<br> засчет активной коммерческой политики</p>
+							<p>Повышение выручки<br> за счет активной коммерческой политики</p>
 						</li>
 						<li>
 							<img src="./img/partner-3-icon.svg" width="160" height="160" alt="">
@@ -193,7 +190,7 @@
 						</li>
 					</ul>
 				</div>
-				<button class="partners--button">Стать партнером</button>
+				<button class="partners--button" data-open="request" data-modal-open>Стать партнером</button>
 			</div>
 			<div class="footer">
 				<div class="footer__row">
@@ -208,6 +205,42 @@
 					<p class="footer--copy">Все права защищены © BSTR 2017</p>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="fade-bg"></div>
+	<div class="modal" data-target="request">
+		<span class="modal--close"></span>
+		<div class="modal__form">
+			<h4>Отправить заявку</h4>
+			<label class="modal__label">
+				<p class="title">ФИО:</p>
+				<p class="message">ФИО не заполнено</p>
+				<input type="text" placeholder="Иванов Иван Иванович">
+			</label>
+			<label class="modal__label">
+				<p class="title">Организация:</p>
+				<p class="message">Организация не заполнена</p>
+				<input type="text" placeholder="ООО «Организация»">
+			</label>
+			<label class="modal__label">
+				<p class="title">Email:</p>
+				<p class="message">Email не заполнен</p>
+				<input type="text" placeholder="ivanovi@gmail.com">
+			</label>
+			<label class="modal__label">
+				<p class="title">Ваше сообщение:</p>
+				<p class="message">Сообщение не заполнено</p>
+				<textarea cols="100" rows="7" placeholder="Введите сообщение"></textarea>
+			</label>
+			<button data-open="sent">Отправить</button>
+		</div>
+	</div>
+	<div class="modal" data-target="sent">
+		<span class="modal--close"></span>
+		<div class="modal__text">
+			<h4>Спасибо, Ваша заявка<br> успешно отправлена.</h4>
+			<p>Наш менеджер свяжется<br> с Вами в ближайшее время.</p>
+			<button data-close-all>Ок</button>
 		</div>
 	</div>
 	<script src="./js/libs.js"></script>

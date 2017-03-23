@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="234px" height="354px" viewBox="0 0 234 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="234" height="354"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)">
+                <g transform="translate(-1.000000, 0.000000)">
+                    <rect id="Mask" fill="#D8D8D8" x="1" y="0" width="234" height="354"></rect>
+                    <polygon id="Path-35" fill="#364351" points="52.5658859 0 235 0 235 106.196814"></polygon>
+                    <polygon id="Path-37" fill="#F0F5F6" points="1 1.98045626e-13 15.2013315 0 235.032615 129.874706 235.095817 192.830151 1 56.1045505"></polygon>
+                    <polygon id="Path-37" fill="#CBD3D7" points="1.01279406 55.9889401 235.079873 192.199411 235.013894 205.52287 1.12420879 69.292737"></polygon>
+                    <polygon id="Path-37" fill="#768186" points="1.03729622 69.2996565 235.001396 205.61548 235.111325 212.043367 0.971632096 75.4743135"></polygon>
+                    <polygon id="Path-37" fill="#9FA6AA" points="1 75.1285658 235 211.325951 235 346.120885 1 210.624726"></polygon>
+                    <polygon id="Path-37" fill="#FFFFFF" points="1.07829137 210.974916 235 346.217881 235 354 1 354"></polygon>
+                    <polygon id="Path-37" fill="#768186" points="1 220.168273 231.308585 354 217.263996 354 1 228.940538"></polygon>
+                    <polygon id="Path-36" fill="#FFFFFF" points="53.378928 0 235.129133 105.847215 235.025966 130.211857 14.6304845 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="440px" viewBox="0 0 320 440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="320" height="440"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g id="Group-63" mask="url(#mask-2)">
+                <g transform="translate(-403.284375, -67.541985)">
+                    <polygon id="Path-35" fill="#364351" points="338.755898 0.0236802623 1069.28438 0 1069.28438 358.547168 955.727659 358.547168"></polygon>
+                    <polygon id="Path-37" fill="#F0F5F6" points="190.646081 0 301.044655 7.78128908e-17 908.66727 358.848621 811.216022 362.086492"></polygon>
+                    <polygon id="Path-37" fill="#CBD3D7" points="168.54752 0 191.211089 0 1128.68247 545.541985 1105.17321 545.541985"></polygon>
+                    <polygon id="Path-37" fill="#768186" points="157.932673 0 168.478511 0 1104.81324 545.541985 1093.23265 545.541985"></polygon>
+                    <polygon id="Path-37" fill="#9FA6AA" points="0.534375 0.165270597 158.51579 0 1095.69503 545.541985 866.357722 545.541985 0.534375 44.3459385"></polygon>
+                    <polygon id="Path-37" fill="#FFFFFF" points="0.809510816 45.0639874 866.011446 545.541985 1.54742011 545.541985"></polygon>
+                    <polygon id="Path-37" fill="#768186" points="0.335663417 53.3789661 847.552321 545.541985 834.404434 545.541985 0.534375 62.3244949"></polygon>
+                    <polygon id="Path-36" fill="#FFFFFF" points="338.233361 0.0236802623 954.973615 358.279497 907.114611 358.279497 300.907826 0.0236802623"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
